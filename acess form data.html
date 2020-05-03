@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>
+            ACESS FORM DATA
+        </title>
+        <script>
+            function display()
+
+            {
+
+            
+            var t_value=document.getElementById("t1").value;
+            document.write(t_value);
+            var g_value=document.getElementById("r").value;
+            document.write(g_value);
+            var l_value=document.getElementById("c1").value;
+            document.write(g_value);
+            
+
+
+
+            }
+        </script>
+    </head>
+    <body>
+        <form id="myform">
+            ENTER NAME<input type="text" id="t1"><br>
+select gender <input type="radio" id="r" value="male">male
+              <input type="radio" id="r" value="female">female<br>
+Select language
+<input type="checkbox" id="c1" value="hindi">hindi
+<input type="checkbox" id="c2" value="english">english<br>
+Select programming language
+<select>
+    <option value="C">C</option>
+    <option value="C++">C++</option>
+    <option value="JAVA">JAVA</option>
+</select>
+        </form>
+        <button onclick="display();">Click me....</button>
+    </body>
+</html>

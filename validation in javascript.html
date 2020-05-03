@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>
+            VALIDATION IN JVS
+        </title>
+        
+        
+        <script>
+            function myvalid()
+            {
+                var v = document.myform.t1.value;
+                if(v == "")
+                {
+             alert ("enter the value in text box");
+                }
+                else 
+                {
+                    alert ("value ok");
+                }
+            }
+
+     </script>       
+    <head>
+    <body>
+        <form name="myform">
+            <input type="text" name=="t1">
+            <button onclick="myvalid();">CLICK me....</button>
+        </form>
+    </body>
+</html>
